@@ -43,8 +43,8 @@ _start:
 # subl $4, %esp
 
 # 2^3
-# 2             <----  12(%ebp)
-# 3             <----  8(%ebp)
+# 3             <----  12(%ebp)
+# 2             <----  8(%ebp)
 # return value  <----  4(%ebp)
 # old ebp       <----  (%ebp)
 # current value <----  -4(%ebp) and (%esp)
