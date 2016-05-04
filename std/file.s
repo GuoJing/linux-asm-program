@@ -1,6 +1,5 @@
-# file open read and write
-# ./file input_file out_put_file
-# make file content to upper
+# read from stdin and write to stdout
+# echo something | ./file
 
 .section .data
 	
