@@ -4,3 +4,9 @@ exit/exit
 max/max
 power/power
 fact/fact
+std/file
+file/file
+
+record/write_records
+record/read_records
+record/test.dat
