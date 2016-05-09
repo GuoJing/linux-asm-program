@@ -10,3 +10,5 @@ file/file
 record/write_records
 record/read_records
 record/test.dat
+
+nasm/hello
