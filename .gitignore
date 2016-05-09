@@ -1,14 +1,14 @@
 *~
 *.o
-exit/exit
-max/max
-power/power
-fact/fact
-std/file
-file/file
+att/exit/exit
+att/max/max
+att/power/power
+att/fact/fact
+att/std/file
+att/file/file
 
-record/write_records
-record/read_records
-record/test.dat
+att/record/write_records
+att/record/read_records
+att/record/test.dat
 
-nasm/hello
+nasm/helloworld/hello
