@@ -1,24 +1,20 @@
 section .data
 
-msg db "Hello, World!", 0xa
-len equ $ - msg
+msg:	db "Hello world!", 0xa
+len:	equ $ - msg
 
 section .text
-
-global _start
-_syscall:
-	int 0x80
-	ret
+	global _start
 
 _start:
-	push dword len
-	push dword msg
-	push dword 1
-	mov eax, 0x4
-	call _syscall
+	mov eax, 4
+	mov ebx, 1
+	mov ecx, msg
+	mov edx, len
 
-	add esp, 12
+	int 80h
 
-	push dword 1
-	mov eax, 0x1
-	call _syscall
+	mov eax, 1
+	mov ebx, 0
+
+	int 80h
